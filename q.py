@@ -7,8 +7,8 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeybo
 from imdb import IMDb
 import time
 
-API_TOKEN = '8145228120:AAGsyGwHdu7NQ_NS6MorcHK9QLkpT0xemMY'
-ADMIN_ID = '5047811078'
+API_TOKEN = 'YOUR_BOT_TOKEN_HERE'
+ADMIN_ID = 'YOUR_ADMIN_ID_HERE'
 DATA_DIR = 'bot_data'
 CHANNEL_DATA_FILE = os.path.join(DATA_DIR, 'channel_data.json')
 USERS_FILE = os.path.join(DATA_DIR, 'users.txt')
